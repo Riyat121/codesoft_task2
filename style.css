@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav1{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 30px;
+    gap: 65px;
+    height: 9%;
+    width: 100%;
+    background-image: linear-gradient(to right,rgba(60, 11, 61, 0.99),purple,rgb(245, 87, 226));
+}
+#icons{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+   
+}
+#nav1 h2{
+display: flex;
+justify-content: center;
+padding-top:20px ;
+padding-left: 250px;
+font-size: 150;
+font-weight: 300;
+}
+button{
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+margin-left: 30px;
+padding: 2px 4px;
+background-color: rgba(233, 171, 234, 0.99);
+}
+#top{
+   height: 10%;
+   width: 100%;
+   background-color: rgb(238, 212, 152);
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+}
+#top img{
+    object-fit: cover;
+    height: 80px;
+    width: 90px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    /* margin-left: 170px; */
+}
+#top h1{
+    padding-top: 20px;
+}
+#top h3{
+    padding-top: 30px;
+    justify-content: space-between;
+  /* gap: 20px; */
+}
+#top i{
+    margin-top: 30px;
+}
+#mid{
+    min-height: 100px;
+   min-width: fit-content;
+   display: flex;
+   
+}
+#mid img{
+height: 40%;
+width: 100%;
+    object-fit: cover;
+}
+#mid h2{
+  margin-bottom: 80px;
+  position: absolute;
+  padding: 90px 110px;
+  font-size: 40px;
+  font-weight: 400;
+  /* font-style: italic; */
+  color: white;
+  text-transform: uppercase;
+}
+.title{
+    margin-top: 140px;
+    margin-left: 290px;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+#bottom{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(218, 201, 165);
+}
+ #bottom #left{
+    width: 50%;
+    /* background-color: aqua; */
+}
+ #bottom #right{
+    width: 50%;
+  
+}
+#bottom #left #text{
+    font-size: 30px;
+    font-weight: 200;
+    padding: 120px 180px;
+}
+ #left #text p{
+    font-size: 15px;
+    font-weight: 200;
+   
+}
+#bottom #right #text2{
+    font-size: 30px;
+    margin-bottom: 300px;
+    font-weight: 200;
+    padding: 120px 180px;
+}
+#right #text2 p{
+    font-size: 15px;
+    font-weight: 200;
+   
+}
+ 
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: rgb(158, 151, 134);
+    border-radius: 8px;
+    overflow: auto;
+    box-shadow: 0px 2px 4px;
+    margin: 20px;
+}
+.card img{
+width: 100%;
+height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease;
+
+}
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color: white;
+    color: rgb(127, 27, 177);
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a {
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.footer ul li a:hover{
+    border-bottom: 3px solid white;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer .copywrite{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
